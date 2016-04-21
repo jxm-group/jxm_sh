@@ -3,6 +3,9 @@
 #insall vim
 apt-get install vim   -y --force-yes
 
+#install tree
+apt-get install tree
+
 # install git
 apt-get install git -y --force-yes
 
