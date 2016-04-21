@@ -1,9 +1,10 @@
 # jxm_sh
-# 
+
 
 .
 |── README.md                      # 说明文档
 |
+
 └── ubuntu14_dev_init_sh
 
     ├── java-8-install.sh          # 安装 jdk-8
