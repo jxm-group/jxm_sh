@@ -24,5 +24,7 @@ apt-get install ipython -y
 
 # install java-8
 
+# install svn
+apt-get install subversion
 
 
