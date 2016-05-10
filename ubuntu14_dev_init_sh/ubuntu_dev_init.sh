@@ -31,3 +31,6 @@ apt-get install subversion
 
 # install rar
 apt-get install  rar 
+
+# install 
+apt-get install zlib1g-dev
