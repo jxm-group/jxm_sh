@@ -34,3 +34,9 @@ apt-get install  rar
 
 # instlal Python-pip
 sudo apt-get install python-pip
+
+# install zlib1g-dev  
+# cx_Freeze  依赖 
+apt-get install zlib1g-dev
+
+

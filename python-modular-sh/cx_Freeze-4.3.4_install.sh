@@ -1,5 +1,10 @@
 #svn checkout 
 
+
+# install zlib1g-dev  
+# 编译 cx_Freeze  依赖 
+sudo apt-get install zlib1g-dev
+
 echo "[ info ] svn checkout ............................"
 svn checkout https://github.com/github-jxm/pythonModular.git/trunk/cx_Freeze
 cd ./cx_Freeze
