@@ -31,3 +31,6 @@ apt-get install subversion
 
 # install rar
 apt-get install  rar 
+
+# instlal Pythn pip
+sudo apt-get install python-pip
