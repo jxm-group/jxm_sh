@@ -1,7 +1,7 @@
-sudo apt-get install vim-gnome
-sudo apt-get install ctags
-sudo apt-get install vim-scripts
-sudo vim-addons install taglist
+sudo apt-get install vim-gnome -y
+sudo apt-get install ctags -y
+sudo apt-get install vim-scripts -y
+sudo vim-addons install taglist -y
 
 
 git clone https://github.com/rkulla/pydiction.git
