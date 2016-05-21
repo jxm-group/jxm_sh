@@ -2,7 +2,7 @@
 
 echo "[ info ] svn checkout ............................"
 svn checkout https://github.com/github-jxm/pythonModular.git/trunk/chrome
-cd ./request
+cd ./chrome
 
 echo " "
 echo "[ info ] install chrome............ "
