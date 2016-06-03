@@ -39,4 +39,7 @@ sudo apt-get install python-pip
 # cx_Freeze  依赖 
 apt-get install zlib1g-dev
 
+# 安装屏幕录像软件  kazam
+sudo apt-get install kazam
+
 
