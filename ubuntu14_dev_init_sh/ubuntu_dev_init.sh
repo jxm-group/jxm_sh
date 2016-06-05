@@ -43,3 +43,6 @@ sudo apt-get install kazam
 # 安装屏幕录像软件 gtk-recordmydesktop
 sudo apt-get install recordmydesktop gtk-recordmydesktop
 
+# 播放器 parole
+sudo apt-get install parole
+
