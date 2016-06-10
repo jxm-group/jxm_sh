@@ -22,27 +22,20 @@ apt-get install libxext6 libxext-dev libqt4-dev libqt4-gui libqt4-sql qt4-dev-to
 apt-get install pyqt4-dev-tools
 
 # install ipython
-apt-get install ipython -y
+apt-get install ipython -y --force-yes
 
 # install svn
-apt-get install subversion
+apt-get install subversion -y --force-yes
 
 # install rar
-apt-get install  rar 
+apt-get install  rar  -y --force-yes
 
 # instlal Python-pip
-sudo apt-get install python-pip
+sudo apt-get install python-pip -y --force-yes
 
 # install zlib1g-dev  
 # cx_Freeze  依赖 
-apt-get install zlib1g-dev
+apt-get install zlib1g-dev -y --force-yes
 
-# 安装屏幕录像软件  kazam
-sudo apt-get install kazam
 
-# 安装屏幕录像软件 gtk-recordmydesktop
-sudo apt-get install recordmydesktop gtk-recordmydesktop
-
-# 播放器 parole
-sudo apt-get install parole
 

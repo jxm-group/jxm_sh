@@ -1,3 +1,19 @@
+#!/bin/bash
+
+echo "信息提示：不要使用 sudo"
+
+echo -n "输入 y/n : "
+read readinfo
+
+if [ $readinfo = "y" ] ||  [ $readinfo = "Y" ]
+then
+    echo " "
+else
+    echo "终止，已退出"
+    exit 1
+fi
+
+
 sudo apt-get install vim-gnome -y
 sudo apt-get install ctags -y
 sudo apt-get install vim-scripts -y
@@ -6,12 +22,14 @@ sudo vim-addons install taglist -y
 
 git clone https://github.com/rkulla/pydiction.git
 cd pydiction
+
 sudo chmod o+rw ~/.vim -R
 mkdir -p  ~/.vim/after/ftplugin
 cp after/ftplugin/python_pydiction.vim ~/.vim/after/ftplugin
 cp complete-dict ~/.vim
 cp pydiction.py ~/.vim
 cd ../
+rm pydiction -rf
 
 userName=`whoami`
 sudo chmod +rw /home/$userName/.Xauthority
