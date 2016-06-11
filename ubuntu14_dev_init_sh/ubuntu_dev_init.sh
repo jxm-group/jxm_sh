@@ -37,5 +37,6 @@ sudo apt-get install python-pip -y --force-yes
 # cx_Freeze  依赖 
 apt-get install zlib1g-dev -y --force-yes
 
-
+# go 语言 开发环境 
+# sudo apt-get install golang
 
