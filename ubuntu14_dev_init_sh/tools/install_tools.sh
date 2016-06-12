@@ -13,3 +13,6 @@ sudo apt-get install recordmydesktop gtk-recordmydesktop -y --force-yes
 
 # 播放器 parole
 sudo apt-get install parole  -y --force-yes
+
+# 转码工具 处理windows编码
+sudo apt-get install enca -y --force-yes
