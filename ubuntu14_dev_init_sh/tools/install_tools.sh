@@ -16,3 +16,6 @@ sudo apt-get install parole  -y --force-yes
 
 # 转码工具 处理windows编码
 sudo apt-get install enca -y --force-yes
+
+# 安装 Markdown编辑器 retext
+sudo apt-get install retext -y
