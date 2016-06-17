@@ -18,4 +18,4 @@ sudo apt-get install parole  -y --force-yes
 sudo apt-get install enca -y --force-yes
 
 # 安装 Markdown编辑器 retext
-sudo apt-get install retext -y
+sudo apt-get install retext -y --force-yes
