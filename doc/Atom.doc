@@ -1,14 +1,10 @@
 
 
-https://atom.io/packages/
 
-http://andrewliu.in/2015/12/03/Atom%E5%BC%80%E7%AE%B1%E6%8C%87%E5%8D%97/
-http://www.open-open.com/lib/view/open1449210316108.html
-
-自动跳转，atom-ctags
+自动跳转包，atom-ctags
 
 #----------------
-python :
+python 包 :
 #----------------
 
 https://segmentfault.com/q/1010000002723239/a-1020000002724246
@@ -26,10 +22,4 @@ http://my.oschina.net/mummy108/blog/644003
 http://www.linuxidc.com/Linux/2013-06/85821.htm
 
 sudo apt-get install clang
-c语言自动补全   ：  autocomplete-clang
-
-
-#----------------------------------
-#  MarkDown
-#---------------------------------
-markdown-scroll-sync     将 markdown-preview 的编辑区和预览区同步滚动
+c语言自动补全 ：  autocomplete-clang
