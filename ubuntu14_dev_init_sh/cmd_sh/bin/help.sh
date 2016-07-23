@@ -2,6 +2,7 @@
 
 echo ""
 echo "============== help ==============="
+echo "计算器   :  gnome-calculator" 
 echo "打开pdf  :  evince filename.pdf"
 echo "打开图片 :  eog    filename"
 echo "画 图 板 :  kolourpaint filePath"

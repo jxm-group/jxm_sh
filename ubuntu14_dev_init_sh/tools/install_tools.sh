@@ -19,3 +19,6 @@ sudo apt-get install enca -y --force-yes
 
 # 安装 Markdown编辑器 retext
 sudo apt-get install retext -y --force-yes
+
+# 文件比较工具
+sudo apt-get install meld
