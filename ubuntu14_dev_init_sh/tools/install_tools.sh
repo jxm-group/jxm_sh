@@ -22,3 +22,9 @@ sudo apt-get install retext -y --force-yes
 
 # 文件比较工具
 sudo apt-get install meld
+
+# 网络流量监测 工具
+sudo apt-get install nload
+
+# 流程图
+sudo apt-get install dia
