@@ -40,3 +40,7 @@ apt-get install zlib1g-dev -y --force-yes
 # go 语言 开发环境 
 # sudo apt-get install golang
 
+# 安装 expect
+# sudo apt-get install tcl tk expect
+
+
