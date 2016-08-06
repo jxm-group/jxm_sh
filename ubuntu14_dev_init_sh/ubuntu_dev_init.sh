@@ -43,4 +43,6 @@ apt-get install zlib1g-dev -y --force-yes
 # 安装 expect
 # sudo apt-get install tcl tk expect
 
+# 安装 SQLite 数据库 
+sudo apt-get install sqlite3  libsqlite3-dev python-pysqlite2 libqt4-sql-sqlite
 
