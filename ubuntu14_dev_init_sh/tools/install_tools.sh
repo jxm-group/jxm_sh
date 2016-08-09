@@ -28,3 +28,6 @@ sudo apt-get install nload
 
 # 流程图
 sudo apt-get install dia
+
+# 7z 解压
+sudo apt-get install p7zip
