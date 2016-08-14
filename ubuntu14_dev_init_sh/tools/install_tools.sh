@@ -32,3 +32,8 @@ sudo apt-get install dia
 # 7z 解压
 sudo apt-get install p7zip
 sudo apt-get install p7zip-full
+
+# 右键在当前位置打开终端
+sudo apt-get install nautilus-open-terminal
+
+
