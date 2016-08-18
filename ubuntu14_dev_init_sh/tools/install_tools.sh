@@ -32,3 +32,8 @@ sudo apt-get install dia
 # 7z 解压
 sudo apt-get install p7zip
 sudo apt-get install p7zip-full
+
+# 安装 gollum
+sudo apt-get install ruby1.9.1 ruby1.9.1-dev make zlib1g-dev libicu-dev build-essential git
+sudo gem install gollum
+
