@@ -37,3 +37,7 @@ sudo apt-get install p7zip-full
 sudo apt-get install ruby1.9.1 ruby1.9.1-dev make zlib1g-dev libicu-dev build-essential git
 sudo gem install gollum
 
+# 右键在当前位置打开终端
+sudo apt-get install nautilus-open-terminal
+
+
