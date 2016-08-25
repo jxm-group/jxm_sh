@@ -41,3 +41,6 @@ sudo gem install gollum
 sudo apt-get install nautilus-open-terminal
 
 
+# 抓包工具
+sudo apt-get install wireshark
+
