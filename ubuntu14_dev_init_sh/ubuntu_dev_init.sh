@@ -1,7 +1,11 @@
 #!/bin/bash
 
 #insall vim
-apt-get install vim   -y --force-yes
+sudo apt-get install vim   -y --force-yes
+sudo apt-get install vim-scripts  -y --force-yes
+
+# install ctags
+sudo apt-get install exuberant-ctags  -y --force-yes
 
 #install tree
 apt-get install tree
