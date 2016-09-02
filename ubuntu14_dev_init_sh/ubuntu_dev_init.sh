@@ -50,3 +50,10 @@ apt-get install zlib1g-dev -y --force-yes
 # 安装 SQLite 数据库 
 sudo apt-get install sqlite3  libsqlite3-dev python-pysqlite2 libqt4-sql-sqlite -y --force-yes
 
+
+
+# 安装 mysql 数据库
+#sudo apt-get install mysql-server
+#sudo apt-get install mysql-client
+#sudo apt-get install libmysqlclient-dev
+
