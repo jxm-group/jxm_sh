@@ -56,4 +56,6 @@ sudo apt-get install sqlite3  libsqlite3-dev python-pysqlite2 libqt4-sql-sqlite 
 #sudo apt-get install mysql-server
 #sudo apt-get install mysql-client
 #sudo apt-get install libmysqlclient-dev
+#sudo apt-get install mysql-workbench
+
 
