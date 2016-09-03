@@ -51,11 +51,14 @@ apt-get install zlib1g-dev -y --force-yes
 sudo apt-get install sqlite3  libsqlite3-dev python-pysqlite2 libqt4-sql-sqlite -y --force-yes
 
 
-
 # 安装 mysql 数据库
 #sudo apt-get install mysql-server
 #sudo apt-get install mysql-client
 #sudo apt-get install libmysqlclient-dev
 #sudo apt-get install mysql-workbench
 
+#  安装 kdevelop
+sudo apt-get install  kdevelop
+sudo apt-get install automake autoconf g++
+sudo apt-get install libtool cmake
 
