@@ -58,7 +58,8 @@ sudo apt-get install sqlite3  libsqlite3-dev python-pysqlite2 libqt4-sql-sqlite 
 #sudo apt-get install mysql-workbench
 
 #  安装 kdevelop
-sudo apt-get install  kdevelop
+#sudo apt-get install  kdevelop
+#sudo apt-get install  kdevelop-dev
 sudo apt-get install automake autoconf g++
 sudo apt-get install libtool cmake
 
