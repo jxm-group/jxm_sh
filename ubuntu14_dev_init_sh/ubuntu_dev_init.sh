@@ -24,7 +24,7 @@ apt-get install qt4-dev-tools qt4-doc qt4-qtconfig qt4-demos qt4-designer -y --f
 # 解决　pycharm 升级python 包出现的错误　　　
 #         fatal error: Python.h: 没有那个文件或目录
 # http://www.cnblogs.com/yuxc/archive/2012/05/13/2498019.html
-sudo apt-get install python-dev
+sudo apt-get install python-dev  -y --force-yes
 
 # install pyqt4
 apt-get install libxext6 libxext-dev libqt4-dev libqt4-gui libqt4-sql qt4-dev-tools qt4-doc qt4-designer qt4-qtconfig python-qt4-*  python-qt4 -y --force-yes
