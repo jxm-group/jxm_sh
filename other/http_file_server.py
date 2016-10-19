@@ -1,9 +1,11 @@
-# coding=utf-8
+#!/usr/bin/env python
+#coding=utf-8
 
-"""this is .py file create by pbc on 2016.02.24 for httpserver.
+"""
+this is .py file create by pbc on 2016.02.24 for httpserver.
 """
 
-from PyQt4.QtCore import QThread
+from threading import Thread
 
 __version__ = "0.1"
 __all__ = ["SimpleHTTPRequestHandler"]
@@ -102,7 +104,7 @@ class SimpleHTTPRequestHandler(BaseHTTPServer.BaseHTTPRequestHandler):
 			    fn = os.path.join(path, fn[0].decode('gbk').encode('utf-8'))
                 #fn = os.path.join(path, fn[0])
         except Exception, e:
-            return (False, "ÎÄ¼şÃûÇë²»ÒªÓÃÖĞÎÄ£¬»òÕßÊ¹ÓÃIEÉÏ´«ÖĞÎÄÃûµÄÎÄ¼ş¡£")
+            return (False, "æ–‡ä»¶åè¯·ä¸è¦ç”¨ä¸­æ–‡ï¼Œæˆ–è€…ä½¿ç”¨IEä¸Šä¼ ä¸­æ–‡åçš„æ–‡ä»¶ã€‚")
         while os.path.exists(fn):
             fn += "_"
         line = self.rfile.readline()
@@ -248,7 +250,7 @@ def test(HandlerClass = SimpleHTTPRequestHandler,
        ServerClass = BaseHTTPServer.HTTPServer):
     BaseHTTPServer.test(HandlerClass, ServerClass)
 
-class HttpServer(QThread):
+class HttpServer(Thread):
     def __init__(self, parent=None):
         super(HttpServer, self).__init__(parent)
 
