@@ -46,3 +46,6 @@ sudo apt-get install nautilus-open-terminal
 # 抓包工具
 sudo apt-get install wireshark
 
+
+# 下载工具 uget aria2
+sudo apt-get install uget aria2
