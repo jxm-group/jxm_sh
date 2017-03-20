@@ -68,3 +68,6 @@ sudo apt-get install sqlite3  libsqlite3-dev python-pysqlite2 libqt4-sql-sqlite 
 sudo apt-get install automake autoconf g++
 sudo apt-get install libtool cmake
 
+#  sshpass
+sudo apt-get install sshpass
+
