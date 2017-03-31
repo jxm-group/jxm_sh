@@ -49,3 +49,7 @@ sudo apt-get install wireshark
 
 # 下载工具 uget aria2
 sudo apt-get install uget aria2
+
+# ubuntu  取色工具 gpick
+sudo apt-get install gpick
+
