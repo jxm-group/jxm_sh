@@ -1,20 +1,24 @@
 #!/bin/bash
 
-#insall vim
-sudo apt-get install vim   -y --force-yes
-sudo apt-get install vim-scripts  -y --force-yes
+#install ssh-server
+apt-get install openssh-server -y --force-yes
+
+# install vim
+sudo apt-get install vim vim-scripts vim-doc  -y --force-yes
+sudo apt-get install vim-addon-manager  -y --force-yes
+sudo apt-get install vim-gnome          -y --force-yes
+
+# install git
+apt-get install git -y --force-yes
+git config --global core.editor vim   # 配置全局编辑器 
+
+
 
 # install ctags
 sudo apt-get install exuberant-ctags  -y --force-yes
 
 #install tree
 apt-get install tree
-
-# install git
-apt-get install git -y --force-yes
-
-#install ssh-server
-apt-get install openssh-server -y --force-yes
 
 #install qt4
 apt-get install qt4-dev-tools qt4-doc qt4-qtconfig qt4-demos qt4-designer -y --force-yes
