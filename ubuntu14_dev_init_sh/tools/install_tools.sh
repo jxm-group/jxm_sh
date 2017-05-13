@@ -61,6 +61,10 @@ sudo make install
 cd ../
 rm  -rf  byzanz-gui-tmp
 
+# install docker
+sudo apt-get install -y docker.io
 
+# install graphviz
+sudo  apt-get install graphviz  -y
 
 

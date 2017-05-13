@@ -80,4 +80,7 @@ sudo apt-get install  nfs-common -y --force-yes
 #  install  cifs-utils
 sudo apt-get install  cifs-utils -y --force-yes
 
+# 中文字体
+sudo apt-get install ttf-wqy-zenhei -y  --force-yes     # 文泉驿 正黑
+sudo apt-get install fonts-wqy-microhei -y  --force-yes # 文泉驿 微米黑 
 
