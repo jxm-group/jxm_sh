@@ -75,4 +75,9 @@ sudo apt-get install libtool cmake   -y --force-yes
 #  sshpass
 sudo apt-get install sshpass   -y --force-yes
 
+#  install  nfs-common
+sudo apt-get install  nfs-common -y --force-yes  
+#  install  cifs-utils
+sudo apt-get install  cifs-utils -y --force-yes
+
 
