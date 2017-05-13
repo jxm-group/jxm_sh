@@ -32,7 +32,7 @@ sudo apt-get install python-dev  -y --force-yes
 
 # install pyqt4
 apt-get install libxext6 libxext-dev libqt4-dev libqt4-gui libqt4-sql qt4-dev-tools qt4-doc qt4-designer qt4-qtconfig python-qt4-*  python-qt4 -y --force-yes
-apt-get install pyqt4-dev-tools  python-qt4-doc
+apt-get install pyqt4-dev-tools  python-qt4-doc  -y --force-yes
 
 # install ipython
 apt-get install ipython -y --force-yes
@@ -69,9 +69,10 @@ sudo apt-get install sqlite3  libsqlite3-dev python-pysqlite2 libqt4-sql-sqlite 
 #  安装 kdevelop
 #sudo apt-get install  kdevelop
 #sudo apt-get install  kdevelop-dev
-sudo apt-get install automake autoconf g++
-sudo apt-get install libtool cmake
+sudo apt-get install automake autoconf g++   -y --force-yes
+sudo apt-get install libtool cmake   -y --force-yes
 
 #  sshpass
-sudo apt-get install sshpass
+sudo apt-get install sshpass   -y --force-yes
+
 
