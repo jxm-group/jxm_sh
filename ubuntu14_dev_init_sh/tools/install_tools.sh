@@ -29,6 +29,9 @@ sudo apt-get install meld  -y --force-yes
 # 网络流量监测 工具
 sudo apt-get install nload  -y --force-yes
 
+# 系统负载指示器
+sudo apt-get install indicator-multiload
+
 # 流程图
 sudo apt-get install dia  -y --force-yes
 
