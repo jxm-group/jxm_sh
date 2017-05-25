@@ -30,7 +30,7 @@ sudo apt-get install meld  -y --force-yes
 sudo apt-get install nload  -y --force-yes
 
 # 系统负载指示器
-sudo apt-get install indicator-multiload
+sudo apt-get install -y indicator-multiload
 
 # 流程图
 sudo apt-get install dia  -y --force-yes
@@ -65,7 +65,7 @@ cd ../
 rm  -rf  byzanz-gui-tmp
 
 # install docker
-sudo apt-get install -y docker.io
+# sudo apt-get install -y docker.io
 
 # install graphviz
 sudo  apt-get install graphviz  -y
