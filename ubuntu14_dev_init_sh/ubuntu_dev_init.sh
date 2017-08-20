@@ -86,3 +86,4 @@ sudo apt-get install  cifs-utils -y --force-yes
 sudo apt-get install ttf-wqy-zenhei -y  --force-yes     # 文泉驿 正黑
 sudo apt-get install fonts-wqy-microhei -y  --force-yes # 文泉驿 微米黑 
 
+sudo apt-get install openconnect -y  
