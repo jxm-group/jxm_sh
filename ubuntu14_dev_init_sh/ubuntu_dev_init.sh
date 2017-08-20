@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# apt-file 找出该缺失文件所在的包
+sudo apt-get install apt-file -y --force-yes
+
 #install ssh-server
 apt-get install openssh-server -y --force-yes
 
@@ -11,7 +14,6 @@ sudo apt-get install vim-gnome          -y --force-yes
 # install git
 apt-get install git -y --force-yes
 git config --global core.editor vim   # 配置全局编辑器 
-
 
 
 # install ctags
