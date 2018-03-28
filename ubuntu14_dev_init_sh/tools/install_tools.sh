@@ -3,6 +3,9 @@
 # 画图板
 sudo apt-get install kolourpaint4 -y
 
+# 图像处理工具
+sudo apt-get install gimp  -y
+
 sudo apt-get install unrar -y
 
 # 安装屏幕录像软件  kazam
@@ -69,5 +72,14 @@ rm  -rf  byzanz-gui-tmp
 
 # install graphviz
 sudo  apt-get install graphviz  -y
+
+
+# 安装 动态壁纸　 Live Wallpaper
+# http://www.toutiao.com/a6338148980920992002/
+# http://www.linuxidc.com/Linux/2012-10/73299.htm
+#
+# sudo add-apt-repository ppa:fyrmir/livewallpaper-daily
+# sudo apt update && sudo apt install livewallpaper
+# sudo apt install livewallpaper-config livewallpaper-indicator
 
 
