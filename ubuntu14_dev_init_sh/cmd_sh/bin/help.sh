@@ -26,6 +26,7 @@ tee  <<-'EOF'
 sdpromote_postmaster:promote123
 ======================================
 
+git config credential.helper store                  # 永久
 git config credential.helper 'cache --timeout=7200' # git 临时记住密码2小时
 EOF
 
