@@ -23,8 +23,10 @@ tee  <<-'EOF'
 解压xz文件        : xz -d fileName.tar.xz"
 终端启动守护进程  : nohup ./可执行文件 &"
 ======================================"
+sdpromote_postmaster:promote123
+======================================
 
-git config credential.helper 'cache --timeout=3600' # git 临时记住密码1小时
+git config credential.helper 'cache --timeout=7200' # git 临时记住密码2小时
 EOF
 
 
