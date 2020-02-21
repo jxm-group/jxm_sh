@@ -19,7 +19,11 @@ tee  <<-'EOF'
 编码转换 :  enca -L zh_CN -x UTF-8 file"
          :  enca -L zh_CN -x UTF-8 *  //当前目录所有文件"
 
-启动Markdown编辑器: retext"
+tmux :  c-b ?  
+        c-b " 横向分割 
+        c-b % 纵向分割 
+        c-b 0 跳转下一个窗口
+
 解压xz文件        : xz -d fileName.tar.xz"
 终端启动守护进程  : nohup ./可执行文件 &"
 ======================================"
