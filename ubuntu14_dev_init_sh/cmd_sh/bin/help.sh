@@ -19,6 +19,9 @@ tee  <<-'EOF'
 编码转换 :  enca -L zh_CN -x UTF-8 file"
          :  enca -L zh_CN -x UTF-8 *  //当前目录所有文件"
 
+virtualenv --no-site-packages venv
+source venv/bin/activate
+
 tmux :  c-b ?  
         c-b " 横向分割 
         c-b % 纵向分割 

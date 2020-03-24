@@ -4,7 +4,6 @@ echo ""
 
 tee  <<-'EOF'
 ============== ros help ===============
-rqt_graph   #  查看节点关系
 
 echo $ROS_PACKAGE_PATH
 
@@ -12,39 +11,14 @@ catkin_init_workspace
 
 catkin_create_pkg <package_name> [depend1] [depend2] ... [dependn]
 #catkin_create_pkg learning_communication std_msgs rospy roscpp
-catkin_make
 
-rosrun [package_name] [node_name]
+## 只编译白名单
+catkin_make -DCATKIN_WHITELIST_PACKAGES="ros_pyqt;pyqt_gui;rqt_gui"
 
-###########
-# rosnode
-###########
-rosnode list                  获得运行节点列表
-rosnode info node-name        获得特定节点的信息
-rosnode ping  node-name       测试节点是否连通
-rosnode kill node-name        终止节点
+## 不编译,黑名单列表里面的包
+catkin_make -DCATKIN_BLACKLIST_PACKAGES="dyn_cfg_gui;qt_ros_test;ros_cmake"
 
-###########
-# rospack
-###########
-
-rospack -h
-
-###########
-# rostopic
-###########
-
-rostopic -h
-
-rostopic type /sent_messages
-rosmsg info can_msgs/Frame
-
-############
-# rosbag
-############
-
-rosbag -h
-
+=============================
 rosdep install AMAZING_PACKAGE
 rosdep install --from-paths src --ignore-src -r -y # 用于安装工作空间中所有包的依赖项
 EOF
