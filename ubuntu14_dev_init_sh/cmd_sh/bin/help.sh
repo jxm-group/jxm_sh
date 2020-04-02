@@ -4,32 +4,35 @@ echo ""
 
 tee  <<-'EOF'
 ============== help ===============
-计算器   :  gnome-calculator" 
-打开pdf  :  evince filename.pdf"
-打开图片 :  eog    filename"
-画 图 板 :  kolourpaint filePath"
-截    屏 :  gnome-screenshot -a -c"
-声    音 :  alsamixer"
-视频播放 :  parole filePath"
+计算器   :  gnome-calculator 
+打开pdf  :  evince filename.pdf
+画 图 板 :  kolourpaint filePath
+截    屏 :  gnome-screenshot -a -c
+声    音 :  alsamixer
+视频播放 :  parole filePath
 摄像头   :  cheese
-屏幕录像 :  kazam"
-         :  gtk-recordmydesktop"
+屏幕录像 :  kazam
+         :  gtk-recordmydesktop
 
-检查编码 :  enca -L zh_CN file"
-编码转换 :  enca -L zh_CN -x UTF-8 file"
-         :  enca -L zh_CN -x UTF-8 *  //当前目录所有文件"
+检查编码 :  enca -L zh_CN file
+编码转换 :  enca -L zh_CN -x UTF-8 file
+         :  enca -L zh_CN -x UTF-8 *   //当前目录所有文件
 
+#---------------------------------
+vimdiff file1 file2
+#---------------------------------
 virtualenv --no-site-packages venv
 source venv/bin/activate
+#---------------------------------
 
 tmux :  c-b ?  
         c-b " 横向分割 
         c-b % 纵向分割 
         c-b 0 跳转下一个窗口
 
-解压xz文件        : xz -d fileName.tar.xz"
-终端启动守护进程  : nohup ./可执行文件 &"
-======================================"
+解压xz文件        : xz -d fileName.tar.xz
+终端启动守护进程  : nohup ./可执行文件 &
+======================================
 sdpromote_postmaster:promote123
 ======================================
 
