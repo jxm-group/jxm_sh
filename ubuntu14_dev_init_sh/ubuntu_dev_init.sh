@@ -87,3 +87,12 @@ sudo apt-get install ttf-wqy-zenhei -y  --force-yes     # 文泉驿 正黑
 sudo apt-get install fonts-wqy-microhei -y  --force-yes # 文泉驿 微米黑 
 
 sudo apt-get install openconnect -y  
+
+####################
+# FSearch  // https://blog.csdn.net/qq_37258787/article/details/87726235
+####################
+# sudo add-apt-repository ppa:christian-boxdoerfer/fsearch-daily
+# sudo apt-get update
+# sudo apt install fsearch-trunk
+
+
