@@ -18,6 +18,7 @@ tee  <<-'EOF'
 编码转换 :  enca -L zh_CN -x UTF-8 file
          :  enca -L zh_CN -x UTF-8 *   //当前目录所有文件
 
+文件搜素 : fsearch   // Everything for linux
 #---------------------------------
 vimdiff file1 file2
 #---------------------------------
