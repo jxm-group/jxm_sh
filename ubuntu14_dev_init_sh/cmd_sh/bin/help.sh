@@ -12,7 +12,8 @@ tee  <<-'EOF'
 视频播放 :  parole filePath
 摄像头   :  cheese
 屏幕录像 :  kazam
-         :  gtk-recordmydesktop
+视频剪辑 :  vidcutter
+视频压缩 :  handbrake
 
 检查编码 :  enca -L zh_CN file
 编码转换 :  enca -L zh_CN -x UTF-8 file
