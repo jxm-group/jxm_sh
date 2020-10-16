@@ -26,6 +26,9 @@ vimdiff file1 file2
 virtualenv --no-site-packages venv
 source venv/bin/activate
 #---------------------------------
+ssh-keygen -t rsa -C "your_email@youremail.com"
+#---------------------------------
+
 
 tmux :  c-b ?  
         c-b " 横向分割 
