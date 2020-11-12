@@ -9,8 +9,8 @@
 import sys,os
 
 # 支持文件类型
-#extens = [".c",".cpp",".hpp",".h"]
-extens = [".py"]
+extens = [".c",".cpp",".hpp",".h"]
+#extens = [".py"]
 
 linesCount = 0
 filesCount = 0
