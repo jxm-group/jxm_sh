@@ -8,6 +8,7 @@ tee  <<-'EOF'
 打开pdf  :  evince filename.pdf
 画 图 板 :  kolourpaint filePath
 截    屏 :  gnome-screenshot -a -c
+			flameshot gui
 声    音 :  alsamixer
 视频播放 :  parole filePath
 摄像头   :  cheese
