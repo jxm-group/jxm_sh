@@ -44,6 +44,7 @@ sdpromote_postmaster:promote123
 
 git config credential.helper store                  # 永久
 git config credential.helper 'cache --timeout=36000' # git 临时记住密码10小时
+git push --set-upstream origin master
 hub.fastgit.org
 EOF
 
