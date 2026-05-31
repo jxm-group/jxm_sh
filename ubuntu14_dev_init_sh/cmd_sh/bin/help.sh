@@ -49,7 +49,7 @@ git config credential.helper 'cache --timeout=36000' # git 临时记住密码10�
 
 git push --set-upstream origin master
 
-ln -sf CLAUDE.md .github/copilot-instructions.md
+ln -sf ../CLAUDE.md .github/copilot-instructions.md
 EOF
 
 
