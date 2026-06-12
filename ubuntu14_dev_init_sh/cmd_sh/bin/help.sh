@@ -50,6 +50,8 @@ git config credential.helper 'cache --timeout=36000' # git 临时记住密码10�
 git push --set-upstream origin master
 
 ln -sf ../CLAUDE.md .github/copilot-instructions.md
+
+sudo modprobe vcan && sudo ip link add dev vcan0 type vcan && sudo ip link set up vcan0
 EOF
 
 
